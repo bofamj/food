@@ -11,7 +11,7 @@ import msg from "../assist/masege.png";
 import noti from "../assist/notification.png";
 import setting from "../assist/setteng.png";
 import logout from "../assist/logout.png";
-import frame from "../assist/Frame 65.png";
+import frame from "../assist/form.png";
 
 const NavBar = () => {
   /*<Navbar bg="light" variant="light">
@@ -31,8 +31,9 @@ const NavBar = () => {
           <img className="mt-5 p-2 logo" src={logo} />
         </li>
         <nav className="mt-5 d-flex flex-column align-items-center justify-content-between  nav">
-          <li>
-            <img className="mt-1 p-3 nav-icon-active" src={home} />
+          <div className="active"></div>
+          <li className="">
+            <img className="mt-1  nav-icon-active" src={home} />
           </li>
           <li>
             <img className="mt-1 p-3 nav-icon color-light " src={frame} />
