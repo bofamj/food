@@ -26,7 +26,7 @@ const NavBar = () => {
       </Navbar>*/
   return (
     <aside className="sid-nav ">
-      <ul className="nav nav-pills nav-flush flex-sm-column flex-row flex-nowrap mb-auto mx-auto text-center align-items-center justify-content-around">
+      <ul className="nav nav-pills nav-flush flex-column  flex-nowrap mb-auto mx-auto text-center align-items-center justify-content-around">
         <li className=" ">
           <img className="mt-5 p-2 logo" src={logo} />
         </li>
